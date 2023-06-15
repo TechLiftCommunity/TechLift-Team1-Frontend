@@ -10,7 +10,7 @@ const OurMission = () => {
         <div className="grid lg:grid-cols-2 grid-cols-1 max-h-screen  place-items-center bg-fcWhite p-14">
           <div className="space-y-8">
             <MissionIcon />
-            <p className="font-InterRegular text-black font-semibold text-4xl">
+            <p className="font-Inter text-black font-semibold text-4xl">
               MISSION
             </p>
             <p className="font-InterMedium text-xl text-black2 ">
