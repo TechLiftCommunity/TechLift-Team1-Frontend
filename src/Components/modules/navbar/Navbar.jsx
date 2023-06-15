@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { HiChevronDown, HiChevronUp } from "react-icons/hi2";
+import { HiChevronDown, HiChevronUp } from "react-icons/hi"; //
 import { Link } from "react-router-dom";
 
 export default function NavBar() {
@@ -81,7 +81,7 @@ export default function NavBar() {
                 </Link>
               </li>
               <li className="text-black  font-InterBold text-xl">
-              <Link
+                <Link
                   href="javascript:void(0)"
                   className="flex gap-2 items-center"
                   onMouseEnter={() => setOpenAboutUs(true)}
