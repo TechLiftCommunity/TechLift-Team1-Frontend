@@ -8,7 +8,7 @@ const Button = ({ to, children, size = "md", variant = "full", className = "", .
       case "sm":
         return "px-2 h-10";
       case "md":
-        return "px-[50px] h-12";
+        return "px-[50px] h-14";
       case "lg":
         return "px-[80px] h-14";
 

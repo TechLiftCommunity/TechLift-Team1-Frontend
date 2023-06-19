@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero, JoinUs, OurMission } from './HomeCompScreen'
+import { GrowthProgram, Hero, JoinUs, OurMission } from './HomeCompScreen'
 import MemberList from './HomeCompScreen/MembersList'
 
 const HomeView = () => {
@@ -8,6 +8,9 @@ const HomeView = () => {
       <Hero />
       <MemberList />
       <OurMission />
+      <JoinUs />
+      <GrowthProgram />
+
       
     </div>
   )

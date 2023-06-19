@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { HiChevronDown, HiChevronUp } from "react-icons/hi2";
 import { Link } from "react-router-dom";
+import Logo from "../../Assets/Svg/myLogo.png"
+import Button from "../button/Button";
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
@@ -13,7 +15,7 @@ export default function NavBar() {
         <div>
           <div className="flex items-center justify-between py-3 md:py-7 md:block">
             <a href="javascript:void(0)">
-              <h2 className="text-3xl font-bold text-black">LOGO</h2>
+              <img src={Logo} alt="img" />
             </a>
             <div className="md:hidden">
               <button
@@ -60,10 +62,10 @@ export default function NavBar() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-8 md:space-y-0">
-              <li className="text-black  font-Inter font-medium text-xl">
+              <li className="text-black  font-SpaceGrotesk font-medium text-xl">
                 <a href="javascript:void(0)">Home</a>
               </li>
-              <li className="text-black  font-Inter font-medium text-xl">
+              <li className="text-black  font-SpaceGrotesk font-medium text-xl">
                 <Link
                   href="javascript:void(0)"
                   className="flex gap-2 items-center"
@@ -80,7 +82,7 @@ export default function NavBar() {
                   </span>
                 </Link>
               </li>
-              <li className="text-black  font-Inter font-medium text-xl">
+              <li className="text-black  font-SpaceGrotesk font-medium text-xl">
               <Link
                   href="javascript:void(0)"
                   className="flex gap-2 items-center"
@@ -97,7 +99,7 @@ export default function NavBar() {
                   </span>
                 </Link>
               </li>
-              <li className="text-black  font-Inter font-medium text-xl">
+              <li className="text-black  font-SpaceGrotesk font-medium text-xl">
                 <a href="javascript:void(0)">Partners</a>
               </li>
             </ul>
@@ -105,7 +107,7 @@ export default function NavBar() {
             <div className="mt-3 space-y-2 lg:hidden md:hidden">
               <a
                 href="javascript:void(0)"
-                className="inline-block w-full px-4 py-2 text-xl font-Inter font-medium text-center text-white bg-fcPrimary rounded-md shadow hover:bg-gray-800"
+                className="inline-block w-full px-4 py-2 text-xl font-SpaceGrotesk font-medium text-center text-white bg-fcPrimary rounded-md shadow hover:bg-gray-800"
               >
                 Join Community
               </a>
@@ -113,12 +115,12 @@ export default function NavBar() {
           </div>
         </div>
         <div className="hidden space-x-2 md:inline-block">
-          <a
-            href="javascript:void(0)"
-            className="px-9 py-4  font-Inter text-xl font-medium text-white bg-fcPrimary rounded-md shadow hover:bg-gray-800"
+          <Button
+           
+            className="  font-SpaceGrotesk text-xl font-medium text-white bg-fcPrimary rounded-lg shadow hover:bg-gray-800"
           >
             Join Community
-          </a>
+          </Button>
         </div>
       </div>
     </nav>

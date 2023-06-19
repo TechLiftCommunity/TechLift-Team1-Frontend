@@ -8,21 +8,18 @@ const Hero = () => {
   return (
     <div className="grid lg:grid-cols-2 grid-cols-1 max-h-screen space-x-4 place-items-center bg-fcWhite p-16 mt-16 ">
       <div className="w-full space-y-8">
-        <div className=" text-5xl xl:leading-[60px] font-Inter font-bold text-fcPrimary">
+        <div className=" text-5xl xl:leading-[60px]  font-SpaceGrotesk  font-bold text-fcPrimary">
           <p>
-            Take Charge of Your Future
-            <br /> with a Game Changing
-            <br /> Tech Talent Development
-            <br /> Journey.
+          Transform your knowledge<br /> into practical experience.
           </p>
         </div>
-        <p className="font-InterMedium text-xl text-black2 ">
+        <p className=" font-SpaceGrotesk Medium text-xl text-black2 ">
           At Tech Lift Community, we are passionate about nurturing and grooming
           <br /> outstanding tech talents while seamlessly connecting them with
           dynamic
           <br /> startups in the ever-evolving tech space.
         </p>
-        <SecondaryButton className="text-fcPrimary rounded-md w-44 text-xl px-4 py-2 font-InterRegular font-medium  border border-fcPrimary bg-white">
+        <SecondaryButton className="text-fcPrimary rounded-md w-44 text-xl px-4 py-2  font-SpaceGrotesk  font-medium  border border-fcPrimary bg-white">
           Learn more
         </SecondaryButton>
       </div>

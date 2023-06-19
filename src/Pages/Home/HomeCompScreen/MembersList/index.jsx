@@ -13,7 +13,7 @@ const MemberList = () => {
           </p>
         </div>
       </div>
-      <div className=" border-r-2 border-fcPrimary"></div>
+      <div className=" border-r-2 border-fcWhite"></div>
       <div>
         <div className=" place-items-center grid">
           <p className="text-fcWhite font-Inter text-3xl font-semibold">
@@ -24,7 +24,7 @@ const MemberList = () => {
           </p>
         </div>
       </div>
-      <div className=" border-r-2 border-fcPrimary"></div>
+      <div className=" border-r-2 border-fcWhite"></div>
       <div>
         <div className=" place-items-center grid">
           <p className="text-fcWhite font-Inter text-3xl font-semibold">
