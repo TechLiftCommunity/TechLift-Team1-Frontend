@@ -1,5 +1,6 @@
 import React from "react";
 import MissionIcon from "../../../../Components/Icons/MissonIcon";
+import MissionImg from "../../../../Components/Assets/Svg/missionImg.svg"
 import { SecondaryButton } from "../../../../Components/modules/button/Button";
 import illustraionns from "../../../../Components/Assets/Svg/illustraionns.svg";
 
@@ -10,7 +11,7 @@ const OurMission = () => {
         <div className="grid lg:grid-cols-2 grid-cols-1 max-h-screen  place-items-center bg-fcWhite p-14">
           <div className="space-y-8">
             <MissionIcon />
-            <p className="font-Inter text-black font-semibold text-4xl">
+            <p className=" font-SpaceGrotesk text-black font-semibold text-[40px]">
               MISSION
             </p>
             <p className="font-InterMedium text-xl text-black2 ">
@@ -24,12 +25,12 @@ const OurMission = () => {
               transform
               <br /> businesses and drive groundbreaking achievements.
             </p>
-            <SecondaryButton className="text-fcPrimary rounded-md w-44 text-xl px-4 py-2 font-InterRegular font-medium  border border-fcPrimary bg-white">
+            <SecondaryButton className="text-fcPrimary rounded-md w-44 text-xl px-4 py-2 font-SpaceGrotesk font-medium  border border-fcPrimary bg-white">
               Learn more
             </SecondaryButton>
           </div>
           <div className="w-[90%] items-center flex">
-            <img src={illustraionns} alt="hero" className=" " />
+            <img src={MissionImg} alt="hero" className=" " />
           </div>
         </div>
       </div>
