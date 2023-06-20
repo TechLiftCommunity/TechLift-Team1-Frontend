@@ -14,7 +14,7 @@ const GrowthProgram = () => {
               What you stand to gain in our
               <br /> growth program
             </p>
-            <p className="font-InterMedium text-xl text-black2 ">
+            <p className=" font-SpaceGrotesk font-medium text-xl text-black2 ">
               Our community provides you with a platform to help you gain
               <br /> practical experience and build your portfolio by working on
               a<br /> real-world project. We equip you with soft skills that
