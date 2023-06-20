@@ -10,9 +10,9 @@ const Footer = () => {
   return (
     <div classNameName=" font-SpaceGrotesk">
       <div className="relative bg-fcPrimary mt-12 pt-8 pb-6">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto ">
           <div className="flex flex-wrap text-left lg:text-left">
-            <div className="w-full lg:w-6/12 px-4 space-y-4">
+            <div className="w-full lg:w-6/12 space-y-4">
              <div>
                 <img src={WhiteLogo} alt="logo" />
              </div>
