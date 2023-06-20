@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useRoutes } from "react-router-dom";
-import Home from "./Pages/Home/Home";
+import Home from "./Pages/Home/HomeContainer";
 
 
 
