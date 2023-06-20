@@ -66,7 +66,7 @@ module.exports = {
         InterRegular: "InterRegular",
         InterSemiBold: "InterSemiBold",
         InterMedium: "InterMedium",
-        SpaceGrotesk:"SpaceGrotesk"
+        SpaceGrotesk:"Space Grotesk"
       },
     },
   },

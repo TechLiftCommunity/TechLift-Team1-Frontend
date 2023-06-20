@@ -1,7 +1,8 @@
 
 import { useLocation } from "react-router-dom";
 
-import { Footer, Navbar } from "../../Components/modules/navbar";
+import {  Navbar } from "../../Components/modules/navbar";
+import { Footer } from "../../Components/modules/footer";
 
 const LandingPage = ({ children, footer = true }) => {
   const { pathname } = useLocation();
@@ -12,7 +13,7 @@ const LandingPage = ({ children, footer = true }) => {
 
       <div className={`${pathname === "/" && "pt-0"} lg:pt-0`}>
         {children}
-        {/* {footer && <Footer />} */}
+        {footer && <Footer />}
       </div>
     </div>
   );
