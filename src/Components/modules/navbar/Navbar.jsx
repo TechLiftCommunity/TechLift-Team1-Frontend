@@ -16,7 +16,11 @@ export default function NavBar() {
         <div>
           <div className="flex items-center justify-between py-3 md:py-7 md:block">
             <a href="/">
-              <img src={Logo} alt="img" className="md:pl-0 pl-4 md:w-full w-[100px]" />
+              <img
+                src={Logo}
+                alt="img"
+                className="md:pl-0 pl-4 md:w-full w-[100px]"
+              />
             </a>
             <div className="md:hidden">
               <button
@@ -84,9 +88,6 @@ export default function NavBar() {
                 </Link>
               </li>
 
-              <li className="text-black  font-InterBold text-xl">
-                <Link
-
               <li className="text-black  font-SpaceGrotesk font-medium text-xl">
                 <Link
                   to="javascript:void(0)"
@@ -125,9 +126,11 @@ export default function NavBar() {
               className="hidden space-x-2 md:inline-block"
               onClick={() => setSwitchNavbar(true)}
             >
-              <Button className="  font-SpaceGrotesk text-xl font-medium text-white bg-fcPrimary rounded-lg shadow hover:bg-gray-800">
-                Join Community
-              </Button>
+              <Link to="/community">
+                <Button className="  font-SpaceGrotesk text-xl font-medium text-white bg-fcPrimary rounded-lg shadow hover:bg-gray-800">
+                  Join Community
+                </Button>
+              </Link>
             </div>
           ) : (
             <div className="hidden space-x-6 md:flex items-center">
