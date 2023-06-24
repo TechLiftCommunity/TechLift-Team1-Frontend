@@ -2,7 +2,7 @@ import React from "react";
 import "./Community.css";
 
 const Community = () => {
-  return <div>Community Page</div>;
+  return <div>Community</div>;
 };
 
 export default Community;
