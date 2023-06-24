@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap");
+
+:root {
+  --font-space: "Space Grotesk", sans-serif;
+  --tory-blue: #3e5693;
+  --color-black: #404040;
+  --color-white: #ffffff;
+  --color-yellow: #fcb914;
+}
+
+.header-h1 {
+  font-family: var(--font-space);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  color: var(--tory-blue);
+}
+
+.header-p {
+  font-family: var(--font-space);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  padding: 1rem 0;
+  color: var(--color-black);
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.app__community-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.app__community-header-h1 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.app__community-header-btn {
+  width: 203px;
+  height: 56px;
+  background: var(--tory-blue);
+  border-radius: 10px;
+
+  font-family: var(--font-space);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--color-white);
+  border: none;
+  cursor: pointer;
+}
+
+.app__community-header-image img {
+  width: 528px;
+  height: 530px;
+}
