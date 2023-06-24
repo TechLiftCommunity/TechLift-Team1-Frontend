@@ -22,7 +22,7 @@ const Button = ({ to, children, size = "md", variant = "full", className = "", .
         variant === "full"
           ? "bg-fcPrimary text-white max-w-[800px]"
           : "border-1 bg-white text-primary-100"
-      } ${className}  rounded-[4px] px-5 py-2 font-Inter font-[600]`}
+      } ${className}  rounded-[4px] px-5 py-2 font-SpaceGrotesk font-medium text-xl`}
       {...rest}
     >
       {children}

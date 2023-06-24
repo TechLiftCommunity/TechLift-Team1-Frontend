@@ -1,21 +1,22 @@
 import { useState } from "react";
 import { HiChevronDown, HiChevronUp } from "react-icons/hi"; //
 import { Link } from "react-router-dom";
-import Logo from "../../Assets/Svg/myLogo.png"
-import Button from "../button/Button";
+import Logo from "../../Assets/Svg/myLogo.png";
+import Button, { SecondaryButton } from "../button/Button";
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
   const [openProgram, setOpenProgram] = useState(false);
   const [openAboutUs, setOpenAboutUs] = useState(false);
+  const [switchNavbar, setSwitchNavbar] = useState(false);
 
   return (
     <nav className="w-full fixed shadow z-50 bg-white">
       <div className="justify-between  mx-auto lg:max-w-full md:items-center md:flex md:mx-16">
         <div>
           <div className="flex items-center justify-between py-3 md:py-7 md:block">
-            <a href="javascript:void(0)">
-              <img src={Logo} alt="img" />
+            <a href="/">
+              <img src={Logo} alt="img" className="md:pl-0 pl-4 md:w-full w-[100px]" />
             </a>
             <div className="md:hidden">
               <button
@@ -63,11 +64,11 @@ export default function NavBar() {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-8 md:space-y-0">
               <li className="text-black  font-SpaceGrotesk font-medium text-xl">
-                <a href="javascript:void(0)">Home</a>
+                <Link to="javascript:void(0)">Home</Link>
               </li>
               <li className="text-black  font-SpaceGrotesk font-medium text-xl">
                 <Link
-                  href="javascript:void(0)"
+                  to="javascript:void(0)"
                   className="flex gap-2 items-center"
                   onMouseEnter={() => setOpenProgram(true)}
                   onMouseLeave={() => setOpenProgram(false)}
@@ -87,8 +88,8 @@ export default function NavBar() {
                 <Link
 
               <li className="text-black  font-SpaceGrotesk font-medium text-xl">
-              <Link
-                  href="javascript:void(0)"
+                <Link
+                  to="javascript:void(0)"
                   className="flex gap-2 items-center"
                   onMouseEnter={() => setOpenAboutUs(true)}
                   onMouseLeave={() => setOpenAboutUs(false)}
@@ -104,27 +105,43 @@ export default function NavBar() {
                 </Link>
               </li>
               <li className="text-black  font-SpaceGrotesk font-medium text-xl">
-                <a href="javascript:void(0)">Partners</a>
+                <Link to="javascript:void(0)">Partners</Link>
               </li>
             </ul>
 
             <div className="mt-3 space-y-2 lg:hidden md:hidden">
-              <a
-                href="javascript:void(0)"
+              <Link
+                to="javascript:void(0)"
                 className="inline-block w-full px-4 py-2 text-xl font-SpaceGrotesk font-medium text-center text-white bg-fcPrimary rounded-md shadow hover:bg-gray-800"
               >
                 Join Community
-              </a>
+              </Link>
             </div>
           </div>
         </div>
-        <div className="hidden space-x-2 md:inline-block">
-          <Button
-           
-            className="  font-SpaceGrotesk text-xl font-medium text-white bg-fcPrimary rounded-lg shadow hover:bg-gray-800"
-          >
-            Join Community
-          </Button>
+        <div className="">
+          {switchNavbar === false ? (
+            <div
+              className="hidden space-x-2 md:inline-block"
+              onClick={() => setSwitchNavbar(true)}
+            >
+              <Button className="  font-SpaceGrotesk text-xl font-medium text-white bg-fcPrimary rounded-lg shadow hover:bg-gray-800">
+                Join Community
+              </Button>
+            </div>
+          ) : (
+            <div className="hidden space-x-6 md:flex items-center">
+              <SecondaryButton className="px-[60px] h-14  font-SpaceGrotesk font-[500] text-xl text-fcPrimary  border border-[#3E5693] bg-transparent rounded-lg shadow hover:bg-gray-800">
+                Login
+              </SecondaryButton>
+              <Button
+                size="md"
+                className=" font-SpaceGrotesk text-xl font-medium text-white bg-fcPrimary rounded-lg shadow hover:bg-gray-800"
+              >
+                Get Started
+              </Button>
+            </div>
+          )}
         </div>
       </div>
     </nav>
