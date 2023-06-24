@@ -32,6 +32,7 @@ module.exports = {
         green: "#009A3D",
         darkbg: "#0A0B0A",
         fcDark: "#2A2E43",
+        fcDark2: "#404040",
         fcBlue: "#3F51B5",
         fcNavy: "#28354D",
         fcNavy2: "#2A2E43",
@@ -65,6 +66,7 @@ module.exports = {
         InterRegular: "InterRegular",
         InterSemiBold: "InterSemiBold",
         InterMedium: "InterMedium",
+        SpaceGrotesk:"Space Grotesk"
       },
     },
   },
