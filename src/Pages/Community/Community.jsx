@@ -1,9 +1,11 @@
 import React from "react";
 import "./Community.css";
-import Hero from "../Assets/hero image.png";
+import Hero from "../../Components/Assets/hero image.png";
+
 
 const Community = () => {
   return (
+   
     <div className="app__community section__padding">
       <div className="app__community-header">
         <div className="app__community-header-h1">
