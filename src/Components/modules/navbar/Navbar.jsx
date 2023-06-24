@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { HiChevronDown, HiChevronUp } from "react-icons/hi2";
+import { HiChevronDown, HiChevronUp } from "react-icons/hi"; //
 import { Link } from "react-router-dom";
 import Logo from "../../Assets/Svg/myLogo.png"
 import Button from "../button/Button";
@@ -82,6 +82,10 @@ export default function NavBar() {
                   </span>
                 </Link>
               </li>
+
+              <li className="text-black  font-InterBold text-xl">
+                <Link
+
               <li className="text-black  font-SpaceGrotesk font-medium text-xl">
               <Link
                   href="javascript:void(0)"
