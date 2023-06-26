@@ -3,6 +3,7 @@ import { HiChevronDown, HiChevronUp } from "react-icons/hi"; //
 import { Link } from "react-router-dom";
 import Logo from "../../Assets/Svg/myLogo.png";
 import Button, { SecondaryButton } from "../button/Button";
+import Dropdown from "../dropdown/Dropdown";
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
@@ -11,7 +12,7 @@ export default function NavBar() {
   const [switchNavbar, setSwitchNavbar] = useState(false);
 
   return (
-    <nav className="w-full fixed shadow z-50 bg-white">
+    <nav className="w-full fixed top-0 shadow z-50 bg-fcWhite">
       <div className="justify-between  mx-auto lg:max-w-full md:items-center md:flex md:mx-16">
         <div>
           <div className="flex items-center justify-between py-3 md:py-7 md:block">
@@ -68,7 +69,7 @@ export default function NavBar() {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-8 md:space-y-0">
               <li className="text-black  font-SpaceGrotesk font-medium text-xl">
-                <Link to="javascript:void(0)">Home</Link>
+                <Link to="/">Home</Link>
               </li>
               <li className="text-black  font-SpaceGrotesk font-medium text-xl">
                 <Link
@@ -85,6 +86,26 @@ export default function NavBar() {
                       <HiChevronUp className="font-extrabold text-[#000000] text-base" />
                     )}
                   </span>
+                  <Dropdown
+                    className="absolute top-16 bg-fcWhite"
+                    show={openProgram}
+                  >
+                    <div className="grid justify-center items-center text-black2 my-2  w-full font-SpaceGrotesk">
+                      <div className="">
+                        <Link to="/growthprogram">
+                          <p className="text-base text-black2">
+                            TechLift Training
+                          </p>
+                        </Link>
+
+                        <Link to="/growthprogram/event">
+                          <p className="text-base text-black2 pt-2">
+                            TechLift Event
+                          </p>
+                        </Link>
+                      </div>
+                    </div>
+                  </Dropdown>
                 </Link>
               </li>
 
@@ -103,6 +124,18 @@ export default function NavBar() {
                       <HiChevronUp className="font-extrabold  text-[#000000] text-base" />
                     )}
                   </span>
+                  <Dropdown
+                    className="absolute top-16 bg-fcWhite"
+                    show={openAboutUs}
+                  >
+                    <div className="grid justify-center items-center text-black2 my-2  w-full font-SpaceGrotesk">
+                      <div className="space-y-2">
+                        <p className="text-base text-black2">Our Mission</p>
+                        <p className="text-base text-black2">Label</p>
+                        <p className="text-base text-black2">Label</p>
+                      </div>
+                    </div>
+                  </Dropdown>
                 </Link>
               </li>
               <li className="text-black  font-SpaceGrotesk font-medium text-xl">
