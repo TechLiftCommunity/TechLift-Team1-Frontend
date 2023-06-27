@@ -1,0 +1,55 @@
+.app__writers-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.app__writers-left-text {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.app__writers-left-text h1 {
+  font-family: var(--font-space);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  color: var(--tory-blue);
+}
+
+.writers-p {
+  width: 560px;
+  color: var(--color-black);
+  font-size: 24px;
+  font-family: var(--font-space);
+  font-weight: 500;
+  line-height: 156.523%;
+
+  margin: 1rem 0;
+}
+
+.app__writers-right img {
+  width: 509px;
+  height: 393px;
+}
+
+.writer-btn {
+  padding: 15px 37px;
+  background-color: var(--tory-blue);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+
+  font-family: var(--font-space);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--color-white);
+
+  margin: 2rem 0;
+}

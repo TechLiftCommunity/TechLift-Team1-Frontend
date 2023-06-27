@@ -1,0 +1,59 @@
+.app__developer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__developer-left img {
+  width: 809px;
+  height: 393px;
+}
+
+.app__developer-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+/* .app__developer-right-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+} */
+
+.app__developer-right-text h1 {
+  font-family: var(--font-space);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  color: var(--tory-blue);
+}
+
+.dev-p {
+  color: var(--color-black);
+  font-size: 24px;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  line-height: 30.62px;
+  padding: 1rem 0;
+  width: 560px;
+}
+
+.dev-btn {
+  padding: 15px 37px;
+  background-color: var(--tory-blue);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+
+  font-family: var(--font-space);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--color-white);
+
+  margin: 2rem 0;
+}
