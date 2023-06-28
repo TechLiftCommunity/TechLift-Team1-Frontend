@@ -19,25 +19,25 @@ const Transformative = () => {
   ];
 
   return (
-    <div className="grid lg:grid-cols-2 grid-cols-1 md:max-h-screen gap-10 place-items-center bg-fcWhite px-5 md:px-16  md:mt-16 ">
+    <div className="grid lg:grid-cols-2 grid-cols-1 lg:max-h-screen gap-10 place-items-center bg-fcWhite px-5 sm:px-10  sm:mt-16 ">
       <div className="w-full space-y-8">
         <div className="font-SpaceGrotesk bg-fcPrimary flex justify-center  rounded-2xl ">
           {data1.map((item, index) => {
             return (
-              <div key={index} className=" space-y-8 my-10 pl-4 md:my-20 relative">
+              <div key={index} className=" space-y-8 my-10 pl-4 sm:my-20 relative">
                 <div>
-                  <img src={Dot3} alt="dot" className="absolute  md-w-full w-[10px] left-14" />
+                  <img src={Dot3} alt="dot" className="absolute  sm-w-full w-[10px] left-14" />
                 </div>
-                <div className="text-[20px] md:text-[40px] font-SpaceGrotesk text-fcWhite  xl:leading-[40px] font-bold">
+                <div className="text-[20px] sm:text-3xl lg:text-[40px] font-SpaceGrotesk text-fcWhite  xl:leading-[40px] font-bold">
                   Start your transformative
                   <br /> journey now!
                 </div>
-                <div className="text-fcWhite  xl:leading-[30px] text-base md text-[14px]:md:text-xl ">
+                <div className="text-fcWhite  xl:leading-[30px] text-[14px] sm:text-base lg:text-xl ">
                   Transform today, unlock your potential, and embrace
                    a brighter future.
                 </div>
                 <div className="flex items-center justify-between">
-                  <SecondaryButton className= "bg-fcWhite px-12 py-3 text-[#3E5693] rounded-lg text-[16px] md text-[14px]:md:text-xl">
+                  <SecondaryButton className= "bg-fcWhite px-12 py-3 text-[#3E5693] rounded-lg text-[16px] lg:text-xl">
                     Join Community
                   </SecondaryButton>
                   <div>
@@ -45,7 +45,7 @@ const Transformative = () => {
                     <img
                       src={Dot2}
                       alt="dot"
-                      className=" absolute  md-w-full w-[10px] right-4  md:right-[-5px]"
+                      className=" absolute  sm-w-full w-[10px] right-4  "
                     />
                   </div>
                 </div>
@@ -54,7 +54,7 @@ const Transformative = () => {
                   <img
                     src={Dot}
                     alt="dot"
-                    className="absolute bottom-0 md-w-full w-[20px] bottom-[-20px]  md:bottom-[-50px] left-14 md:left-8"
+                    className="absolute  sm-w-full w-[20px] bottom-[-20px]  sm:bottom-[-50px] left-14 sm:left-8"
                   />
                 </div>
               </div>
@@ -68,7 +68,7 @@ const Transformative = () => {
             return (
               <div key={index} className="">
                 <div>
-                  <p className="text-fcBlack text-[20px] md:text-[40px] xl:leading-[45px]  font-semibold">
+                  <p className="text-fcBlack text-[20px] sm:text-3xl lg:text-[40px] xl:leading-[45px]  font-semibold">
                     Elevate your tech skills now!
                     <br /> Join our community today!
                   </p>
@@ -80,10 +80,10 @@ const Transformative = () => {
                       <Line size={40} />
                     </div>
                     <div className="space-y-4">
-                      <p className="text-fcDark font-semibold font-SpaceGrotesk text-[18px] md:text-[22px]">
+                      <p className="text-fcDark font-semibold font-SpaceGrotesk text-[18px]  sm:text-[20px] lg:text-[22px]">
                         Get groomed to be culturally and technically fit
                       </p>
-                      <p className="text-fcDark2 font-medium font-SpaceGrotesk xl:leading-[24px] text-[14px] md:text-xl">
+                      <p className="text-fcDark2 font-medium font-SpaceGrotesk xl:leading-[24px] text-[14px] sm:text-base lg:text-xl">
                         We prepare you into becoming fit for the real-life
                          workspace.
                       </p>
@@ -95,10 +95,10 @@ const Transformative = () => {
                       <Line size={40} />
                     </div>
                     <div className="space-y-4">
-                      <p className="text-fcDark font-semibold font-SpaceGrotesk text-[18px] md:text-[22px]">
+                      <p className="text-fcDark font-semibold font-SpaceGrotesk text-[18px] sm:text-[20px] lg:text-[22px]">
                       Get soft skills
                       </p>
-                      <p className="text-fcDark2 font-medium font-SpaceGrotesk xl:leading-[24px] text-[14px] md:text-xl">
+                      <p className="text-fcDark2 font-medium font-SpaceGrotesk xl:leading-[24px] text-[14px] sm:text-base lg:text-xl">
                       The ever-changing tech world moves at the speed of light. Upskilling at its best here. Join us!
                       </p>
                     </div>
@@ -110,10 +110,10 @@ const Transformative = () => {
                      
                     </div>
                     <div className="space-y-4">
-                      <p className="text-fcDark font-semibold font-SpaceGrotesk text-[18px] md:text-[22px]">
+                      <p className="text-fcDark font-semibold font-SpaceGrotesk text-[18px] sm:text-[20px] lg:text-[22px]">
                       Get Connected
                       </p>
-                      <p className="text-fcDark2 font-medium font-SpaceGrotesk xl:leading-[24px] text-[14px] md:text-xl">
+                      <p className="text-fcDark2 font-medium font-SpaceGrotesk xl:leading-[24px] text-[14px] sm:text-base lg:text-xl">
                       Learn from Tech gurus with great expertise. Connect with start-ups and achieve your career dreams.
                       </p>
                     </div>

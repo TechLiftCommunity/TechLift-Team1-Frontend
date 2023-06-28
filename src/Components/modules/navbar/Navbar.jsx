@@ -10,10 +10,9 @@ export default function NavBar() {
   const [openProgram, setOpenProgram] = useState(false);
   const [openAboutUs, setOpenAboutUs] = useState(false);
   const [switchNavbar, setSwitchNavbar] = useState(false);
-
   return (
     <nav className="w-full fixed top-0 shadow z-50 bg-fcWhite">
-      <div className="justify-between  mx-auto lg:max-w-full md:items-center md:flex md:mx-16">
+      <div className="justify-between  md:space-x-4 mx-auto md:max-w-full md:items-center md:flex sm:mx-8 lg:mx-12">
         <div>
           <div className="flex items-center justify-between py-3 md:py-7 md:block">
             <a href="/">
@@ -68,10 +67,10 @@ export default function NavBar() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-8 md:space-y-0">
-              <li className="text-black  font-SpaceGrotesk font-medium text-xl">
+              <li className="text-black  font-SpaceGrotesk font-medium text-[18px]">
                 <Link to="/">Home</Link>
               </li>
-              <li className="text-black  font-SpaceGrotesk font-medium text-xl">
+              <li className="text-black  font-SpaceGrotesk font-medium text-[18px]">
                 <Link
                   to="javascript:void(0)"
                   className="flex gap-2 items-center"
@@ -108,8 +107,7 @@ export default function NavBar() {
                   </Dropdown>
                 </Link>
               </li>
-
-              <li className="text-black  font-SpaceGrotesk font-medium text-xl">
+              <li className="text-black  font-SpaceGrotesk font-medium text-[18px]">
                 <Link
                   to="javascript:void(0)"
                   className="flex gap-2 items-center"
@@ -138,15 +136,15 @@ export default function NavBar() {
                   </Dropdown>
                 </Link>
               </li>
-              <li className="text-black  font-SpaceGrotesk font-medium text-xl">
+              <li className="text-black  font-SpaceGrotesk font-medium text-[18px]">
                 <Link to="javascript:void(0)">Partners</Link>
               </li>
             </ul>
 
-            <div className="mt-3 space-y-2 lg:hidden md:hidden">
+            <div className="mt-3 space-y-2 md:hidden md:hidden">
               <Link
                 to="javascript:void(0)"
-                className="inline-block w-full px-4 py-2 text-xl font-SpaceGrotesk font-medium text-center text-white bg-fcPrimary rounded-md shadow hover:bg-gray-800"
+                className="inline-block w-full px-4 py-2 text-[18px] font-SpaceGrotesk font-medium text-center text-white bg-fcPrimary rounded-md shadow hover:bg-gray-800"
               >
                 Join Community
               </Link>
@@ -160,19 +158,19 @@ export default function NavBar() {
               onClick={() => setSwitchNavbar(true)}
             >
               <Link to="/community">
-                <Button className="  font-SpaceGrotesk text-xl font-medium text-white bg-fcPrimary rounded-lg shadow hover:bg-gray-800">
+                <Button className="  font-SpaceGrotesk text-[18px] font-medium text-white bg-fcPrimary rounded-md shadow ">
                   Join Community
                 </Button>
               </Link>
             </div>
           ) : (
-            <div className="hidden space-x-6 md:flex items-center">
-              <SecondaryButton className="px-[60px] h-14  font-SpaceGrotesk font-[500] text-xl text-fcPrimary  border border-[#3E5693] bg-transparent rounded-lg shadow hover:bg-gray-800">
+            <div className="hidden space-x-5 md:flex items-center">
+              <SecondaryButton className="px-[40px] h-14  font-SpaceGrotesk font-[500] text-[18px] text-fcPrimary  border border-[#3E5693] bg-transparent rounded-md shadow hover:bg-gray-800">
                 Login
               </SecondaryButton>
               <Button
                 size="md"
-                className=" font-SpaceGrotesk text-xl font-medium text-white bg-fcPrimary rounded-lg shadow hover:bg-gray-800"
+                className=" font-SpaceGrotesk text-[18px] font-medium text-white bg-fcPrimary rounded-md shadow "
               >
                 Get Started
               </Button>

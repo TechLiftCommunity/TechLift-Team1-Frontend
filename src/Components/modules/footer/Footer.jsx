@@ -9,9 +9,9 @@ import WhiteLogo from "../../Assets/Svg/whitelogo.svg";
 const Footer = () => {
   return (
     <div className=" font-SpaceGrotesk">
-      <div className="relative bg-fcPrimary mt-12 py-8 md:py-12">
+      <div className="relative bg-fcPrimary mt-12 py-8 md:py-10">
         <div className="container mx-auto ">
-          <div className="flex flex-wrap md:text-left pl-6 md:pl-0 space-y-6 md:space-y-0 lg:text-left">
+          <div className="flex flex-wrap  pl-6 md:pl-10 space-y-6  md:text-left">
             <div className="w-full lg:w-6/12 space-y-4">
               <div>
                 <img src={WhiteLogo} alt="logo" className="md:pl-0 " />
@@ -27,10 +27,10 @@ const Footer = () => {
                 <LinkdinIcon size={40} />
               </div>
             </div>
-            <div className="w-full lg:w-6/12 md:px-4">
-              <div className="flex md:flex-wrap items-top mb-6">
-                <div className="w-full lg:w-4/12 md:px-4 md:ml-auto">
-                  <span className="block  text-fcWhite text-[14px] md:text-[16px] md:text-[18px] font-semibold  mb-2">
+            <div className="w-full lg:w-6/12 ">
+              <div className="flex lg:flex-wrap items-top mb-6">
+                <div className="w-full lg:w-4/12  md:ml-auto">
+                  <span className="block  text-fcWhite text-[14px]  md:text-[18px] font-semibold  mb-2">
                     Company
                   </span>
                   <ul className="list-unstyled">
@@ -61,7 +61,7 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div className="w-full lg:w-4/12 px-4">
-                  <span className="block  text-fcWhite text-[14px] md:text-[16px] md:text-[18px] font-semibold  mb-2">
+                  <span className="block  text-fcWhite text-[14px]  md:text-[18px] font-semibold  mb-2">
                     Legal
                   </span>
                   <ul className="list-unstyled">
@@ -84,7 +84,7 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div className="w-full lg:w-4/12 px-4">
-                  <span className="block  text-fcWhite text-[14px] md:text-[16px] md:text-[18px] font-semibold  mb-2">
+                  <span className="block  text-fcWhite text-[14px]  md:text-[18px] font-semibold  mb-2">
                     Quick Links
                   </span>
                   <ul className="list-unstyled">
@@ -121,7 +121,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-wrap items-center py-4 md:justify-between bg-fcWhitetify-center">
-        <div className="w-full md:w-4/12 px-4 mx-auto text-center">
+        <div className="w-full lg:w-4/12 px-4 mx-auto text-center">
           <div className="text-[14px] text-fcPrimary font-medium py-1">
             © TechliftAfrica | All rights Reserved. 2023
           </div>
