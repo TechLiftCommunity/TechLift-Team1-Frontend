@@ -1,5 +1,3 @@
-
-
 const TextArea = ({
   end,
   size = "md",
@@ -39,7 +37,7 @@ const TextArea = ({
         {...props}
         className={`${getSize(size)} ${className} ${
           size === "lg" && "pl-[20px]"
-        } text-base bg-white font-SpaceGrotesk border-2 pt-2 border-fcGray4 rounded-[6px] focus:border-[#004B9D] outline-none`}
+        } text-base bg-white font-SpaceGrotesk border-2 pt-2 border-fcGray4 rounded-[6px] focus:border-fcPrimary outline-none`}
       />
     </div>
   );

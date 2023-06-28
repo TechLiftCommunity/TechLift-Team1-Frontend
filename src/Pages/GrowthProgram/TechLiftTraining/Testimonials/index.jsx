@@ -6,12 +6,12 @@ import { TestimonialCarousel } from "../../../../Components/modules/Carousel";
 
 const Testimonials = () => {
   return (
-    <div className=" md:max-h-screen mt-10  py-10">
+    <div className=" lg:max-h-screen mt-10  py-10">
       <p className=" text-4xl text-fcPrimary xl:leading-[45px] text-center font-SpaceGrotesk  font-semibold ">
       Testimonies from our benefitors
       </p>
       
-      <div className="hidden md:grid w-full lg:grid-cols-3  md:grid-cols-1 mt-20 px-8 place-items-center">
+      <div className="hidden lg:grid w-full lg:grid-cols-3  md:grid-cols-1 mt-20 px-8 place-items-center">
         <div className="bg-fcWhite items-center flex justify-center px-8 py-10 rounded-md shadow-xl">
           <div className="space-y-4">
             <QouteIcon size={20} />
@@ -74,7 +74,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div className=" md:hidden ">
+      <div className=" lg:hidden ">
         <TestimonialCarousel />
       </div>
     </div>

@@ -7,12 +7,12 @@ import TextArea from "../.../../../../../Components/widgets/textArea/TextArea";
 const Contact = () => {
   return (
     <div>
-      <div className="grid lg:grid-cols-2 grid-cols-1 md:max-h-screen text-center md:text-start gap-14 place-items-center px-6 md:px-24 md:py-10">
+      <div className="grid lg:grid-cols-2 grid-cols-1 lg:max-h-screen text-center lg:text-start gap-14 place-items-center px-6 md:px-10 lg:px-24 md:py-10">
         <div className="space-y-4 ">
-          <p className=" font-SpaceGrotesk text-fcPrimary font-semibold  text-[18px] md:text-4xl">
+          <p className=" font-SpaceGrotesk text-fcPrimary font-semibold  text-[18px] md:text-3xl lg:text-4xl">
             Want a recommendation from us for your next project?
           </p>
-          <p className=" font-SpaceGrotesk  text-[18px] md:text-[19px] text-[#404040] ">
+          <p className=" font-SpaceGrotesk  text-[18px] lg:text-[19px] text-[#404040] ">
             Lorem ipsum dolor sit amet consectetur. Dignissim interdum enim ac
             nunc tincidunt at.
           </p>
@@ -44,8 +44,8 @@ const Contact = () => {
             </SecondaryButton>
           </form>
         </div>
-        <div className="lg:w-full  items-center  md:ml-0 my-4 md:mt-4 flex justify-center order-first md:order-last ">
-          <img src={trainingimage4} alt="hero" className="w-[550px] " />
+        <div className="md:w-full  items-center  md:ml-0 my-4 md:mt-4 flex justify-center order-first lg:order-last ">
+          <img src={trainingimage4} alt="hero" className="" />
         </div>
       </div>
     </div>

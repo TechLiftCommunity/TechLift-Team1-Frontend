@@ -14,7 +14,7 @@ const FormInput = ({
   return (
     <div className="mb-2 items-center justify-center group">
       <input
-        className="form-control border-2 w-full h-12 pl-6 font-SpaceGrotesk text-[14px] text-[#808080] rounded-md items-center justify-center outline-primary shadow-none
+        className="form-control border-2 w-full h-12 pl-6 font-SpaceGrotesk text-[14px] text-[#808080] rounded-md items-center  justify-center outline-fcPrimary shadow-none
        border-fcGray4"
         placeholder="Enter your email"
       />

@@ -7,14 +7,14 @@ import { TestimonialCarousel } from "../../../../Components/modules/Carousel";
 const Testimonials = () => {
   return (
     <div className="bg-fcPrimary6 md:max-h-screen mt-20  py-10">
-      <p className="md:block hidden text-[40px] text-fcBlack xl:leading-[45px] text-center font-SpaceGrotesk  font-semibold ">
+      <p className="md:block hidden lg:text-4xl text-3xl text-fcBlack xl:leading-[45px] text-center font-SpaceGrotesk  font-semibold ">
         See how we have impacted the life
         <br /> of our members
       </p>
       <p className="md:hidden text-[20px] text-fcBlack  text-center font-SpaceGrotesk font-semibold ">
         See how we have impacted the life of our members
       </p>
-      <div className="hidden md:grid  w-full   lg:grid-cols-3  md:grid-cols-1 mt-10 place-items-center">
+      <div className="hidden lg:grid  w-full lg:grid-cols-3  md:grid-cols-1 mt-10 place-items-center">
         <div className="bg-fcWhite items-center flex justify-center px-8 py-10 rounded-md">
           <div className="space-y-4">
             <QouteIcon size={20} />
@@ -77,7 +77,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div className=" md:hidden ">
+      <div className=" lg:hidden ">
         <TestimonialCarousel />
       </div>
     </div>

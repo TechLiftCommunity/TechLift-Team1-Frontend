@@ -8,7 +8,7 @@ const Button = ({ to, children, size = "md", variant = "full", className = "", .
       case "sm":
         return "px-2 h-10";
       case "md":
-        return "px-[50px] h-14";
+        return "px-[40px] h-14";
       case "lg":
         return "px-[80px] h-14";
 
@@ -22,7 +22,7 @@ const Button = ({ to, children, size = "md", variant = "full", className = "", .
         variant === "full"
           ? "bg-fcPrimary text-white max-w-[800px]"
           : "border-1 bg-white text-primary-100"
-      } ${className}  rounded-[4px] px-5 py-2 font-SpaceGrotesk font-medium text-xl`}
+      } ${className}  rounded-[4px] px-5 py-2 font-SpaceGrotesk font-medium text-[18px]`}
       {...rest}
     >
       {children}
