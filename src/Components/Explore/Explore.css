@@ -27,3 +27,34 @@
   text-align: center;
   color: var(--color-white);
 }
+
+@media screen and (max-width: 913px) {
+  .app__explore-h1 h1 {
+    font-size: 35px;
+    line-height: 51px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .app__explore-h1 h1 {
+    width: 234px;
+    font-size: 27px;
+    line-height: 37px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .app__explore-h1 h1 {
+    width: 230px;
+    font-size: 24px;
+    line-height: 37px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .app__explore-h1 h1 {
+    width: 250px;
+    font-size: 22px;
+    line-height: 35px;
+  }
+}
