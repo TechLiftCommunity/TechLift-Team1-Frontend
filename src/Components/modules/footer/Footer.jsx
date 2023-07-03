@@ -9,7 +9,7 @@ import WhiteLogo from "../../Assets/Svg/whitelogo.svg";
 const Footer = () => {
   return (
     <div className=" font-SpaceGrotesk">
-      <div className="relative bg-fcPrimary mt-12 py-8 md:py-10">
+      <div className="relative bg-fcPrimary mt-12 py-8 md:py-10 ">
         <div className="container mx-auto ">
           <div className="flex flex-wrap  pl-6 md:pl-10 space-y-6  md:text-left">
             <div className="w-full lg:w-6/12 space-y-4">

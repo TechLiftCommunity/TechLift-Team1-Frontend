@@ -9,7 +9,7 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
   const [openProgram, setOpenProgram] = useState(false);
   const [openAboutUs, setOpenAboutUs] = useState(false);
-  const [switchNavbar, setSwitchNavbar] = useState(false);
+  const [switchNavbar, setSwitchNavbar] = useState(true);
   return (
     <nav className="w-full fixed top-0 shadow z-50 bg-fcWhite">
       <div className="justify-between  md:space-x-4 mx-auto md:max-w-full md:items-center md:flex sm:mx-8 lg:mx-12">
@@ -152,10 +152,10 @@ export default function NavBar() {
           </div>
         </div>
         <div className="">
-          {switchNavbar === false ? (
+          {switchNavbar ? (
             <div
               className="hidden space-x-2 md:inline-block"
-              onClick={() => setSwitchNavbar(true)}
+              onClick={() => setSwitchNavbar(!switchNavbar)}
             >
               <Link to="/community">
                 <Button className="  font-SpaceGrotesk text-[18px] font-medium text-white bg-fcPrimary rounded-md shadow ">
