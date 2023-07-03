@@ -15,16 +15,15 @@ const CommunityApp = () => {
     <div>
       <Navbar />
       <div className="mt-24">
-      <Community />
-      <Explore />
-      <Product />
-      <Developer />
-      <Writers />
-      <Marketing />
-      <Form />
-      <Footer />
+        <Community />
+        <Explore />
+        <Product />
+        <Developer />
+        <Writers />
+        <Marketing />
+        <Form />
+        <Footer />
       </div>
-      
     </div>
   );
 };

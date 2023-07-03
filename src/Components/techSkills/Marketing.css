@@ -50,3 +50,112 @@
 
   margin: 2rem 0;
 }
+
+@media screen and (max-width: 1301px) {
+  .app__marketing {
+    flex-direction: column;
+  }
+
+  .app__marketing-right {
+    text-align: center;
+    margin: 3rem 0;
+  }
+
+  .mark-p {
+    width: 760px;
+    height: 105px;
+    line-height: 156.52%;
+  }
+
+  .app__marketing-left img {
+    width: 509px;
+    height: 363px;
+  }
+}
+
+@media screen and (max-width: 798px) {
+  .app__marketing-right-text h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .mark-p {
+    width: 680px;
+    font-size: 24px;
+    line-height: 31px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app__marketing-left img {
+    width: 400px;
+    height: 293px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .app__marketing-left img {
+    width: 350px;
+    height: 253px;
+  }
+
+  .mark-p {
+    width: 600px;
+    font-size: 22px;
+    line-height: 31px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .app__marketing-right-text h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .app__marketing-left img {
+    width: 320px;
+    height: 233px;
+  }
+
+  .mark-p {
+    width: 450px;
+    font-size: 20px;
+    line-height: 31px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .app__marketing-right-text h1 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .app__marketing-left img {
+    width: 300px;
+    height: 180px;
+  }
+
+  .mark-p {
+    width: 450px;
+    font-size: 20px;
+    line-height: 31px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .app__marketing-right-text h1 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .app__marketing-left img {
+    width: 300px;
+    height: 130px;
+  }
+
+  .mark-p {
+    width: 350px;
+    font-size: 17px;
+    line-height: 28px;
+  }
+}

@@ -78,3 +78,149 @@
 .form-btn:hover {
   background-color: #f0b318;
 }
+
+@media screen and (max-width: 1024px) {
+  .app__form-input .input {
+    width: 749px;
+  }
+
+  .app__form-input .message-box {
+    width: 749px;
+  }
+
+  .form-btn {
+    width: 749px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .app__form-top h1 {
+    font-size: 35px;
+  }
+  .app__form-top .form-p {
+    font-size: 24px;
+    width: 686px;
+  }
+
+  .app__form-input .input {
+    width: 649px;
+  }
+
+  .app__form-input .message-box {
+    width: 649px;
+  }
+
+  .form-btn {
+    width: 649px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app__form-top h1 {
+    font-size: 30px;
+  }
+  .app__form-top .form-p {
+    font-size: 22px;
+    width: 586px;
+  }
+
+  .app__form-input .input {
+    width: 549px;
+  }
+
+  .app__form-input .message-box {
+    width: 549px;
+  }
+
+  .form-btn {
+    width: 549px;
+  }
+}
+
+@media screen and (max-width: 676px) {
+  .app__form-top .form-p {
+    font-size: 20px;
+    width: 500px;
+  }
+
+  .app__form-input .input {
+    width: 500px;
+  }
+
+  .app__form-input .message-box {
+    width: 500px;
+  }
+
+  .form-btn {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .app__form-top h1 {
+    font-size: 25px;
+  }
+
+  .app__form-top .form-p {
+    font-size: 18px;
+    width: 400px;
+  }
+
+  .app__form-input .input {
+    width: 450px;
+  }
+
+  .app__form-input .message-box {
+    width: 450px;
+  }
+
+  .form-btn {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .app__form-top h1 {
+    font-size: 20px;
+  }
+
+  .app__form-top .form-p {
+    font-size: 15px;
+    width: 320px;
+  }
+
+  .app__form-input .input {
+    width: 350px;
+  }
+
+  .app__form-input .message-box {
+    width: 350px;
+  }
+
+  .form-btn {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .app__form-top h1 {
+    font-size: 18px;
+  }
+
+  .app__form-top .form-p {
+    font-size: 15px;
+    width: 290px;
+  }
+
+  .app__form-input .input {
+    width: 290px;
+  }
+
+  .app__form-input .message-box {
+    width: 290px;
+  }
+
+  .form-btn {
+    width: 290px;
+  }
+}
