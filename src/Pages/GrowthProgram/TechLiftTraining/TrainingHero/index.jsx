@@ -19,7 +19,7 @@ const TrainingHero = () => {
           Explore our program
         </SecondaryButton>
       </div>
-      <div  className="sm:w-full lg:w-full  items-center mr-6 lg:mr-0  ml-0 lg:ml-0 my-4 lg:mt-4 flex justify-center ">
+      <div  className="sm:w-full lg:w-[500px]  items-center mr-6 lg:mr-0  ml-0 lg:ml-0 my-4 lg:mt-4 flex justify-center ">
         <img src={trainingmage1} alt="hero" className=" " />
       </div>
     </div>

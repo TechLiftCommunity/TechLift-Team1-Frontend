@@ -7,7 +7,7 @@ import { TestimonialCarousel } from "../../../../Components/modules/Carousel";
 const Testimonials = () => {
   return (
     <div className=" lg:max-h-screen mt-10  py-10">
-      <p className=" text-4xl text-fcPrimary xl:leading-[45px] text-center font-SpaceGrotesk  font-semibold ">
+      <p className=" text-[24px] md:text-3xl lg:text-4xl text-fcPrimary xl:leading-[45px] text-center font-SpaceGrotesk font-semibold ">
       Testimonies from our benefitors
       </p>
       
