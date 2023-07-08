@@ -16,7 +16,7 @@ export default function TestimonialCarousel() {
   return (
     <>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper ">
-        <SwiperSlide className=" bg-fcWhite items-center flex justify-center px-8  py-10 rounded-md">
+        <SwiperSlide className=" bg-fcWhite items-center flex justify-center px-8   py-10 rounded-md">
           <div classNameName="">
             <div classNameName="space-y-4">
               <QouteIcon size={20} />
@@ -25,7 +25,7 @@ export default function TestimonialCarousel() {
 
                 <p classNameName="font-bold font-SpaceGrotesk">James Nelson</p>
               </div>
-              <p classNameName="text-fcBlaxk text-sm font-SpaceGrotesk">
+              <p classNameName="text-fcBlack text-sm font-SpaceGrotesk">
                 If you have been looking for a platform to
                 <br /> grow your career for many years, people
                 <br /> that will point out your errors and give you
@@ -35,7 +35,7 @@ export default function TestimonialCarousel() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="bg-fcWhite">
+        <SwiperSlide className=" bg-fcWhite items-center flex justify-center px-8  py-10 rounded-md">
           <div classNameName="bg-fcWhite items-center flex justify-center p-8 rounded-md ">
             <div classNameName="space-y-4">
               <QouteIcon size={20} />
@@ -49,7 +49,7 @@ export default function TestimonialCarousel() {
                   </p>
                 </div>
               </div>
-              <p classNameName="text-fcBlaxk text-sm font-SpaceGrotesk">
+              <p classNameName="text-fcBlack text-sm font-SpaceGrotesk">
                 Met great mentors who added nuggets to
                 <br /> my knowledge. Got connected to
                 <br /> industrious people, Tech lift helped me to
@@ -59,7 +59,7 @@ export default function TestimonialCarousel() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="bg-fcWhite">
+        <SwiperSlide className=" bg-fcWhite items-center flex justify-center px-8  py-10 rounded-md">
           <div classNameName="bg-fcWhite items-center flex justify-center p-8 rounded-md">
             <div classNameName="space-y-4">
               <QouteIcon size={20} />

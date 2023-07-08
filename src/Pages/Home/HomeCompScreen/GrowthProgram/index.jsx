@@ -12,9 +12,9 @@ const GrowthProgram = () => {
             <div className="flex justify-center lg:justify-start">
               <GrowthIcon />
             </div>
-            <p className=" font-SpaceGrotesk text-black font-semibold text-[18px] sm:text-3xl lg:text-4xl">
+            <p className=" font-SpaceGrotesk text-black font-semibold text-2xl sm:text-3xl lg:text-4xl">
               What you stand to gain in our
-              <br /> growth program
+               growth program
             </p>
             <p className=" font-SpaceGrotesk font-medium text-[16px] lg:text-xl text-black2 ">
               Our community provides you with a platform to help you gain

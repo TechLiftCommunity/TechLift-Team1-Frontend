@@ -12,9 +12,9 @@ const JoinUs = () => {
           <div className="flex justify-center lg:justify-start">
               <GrowthIcon />
             </div>
-            <p className=" font-SpaceGrotesk text-black font-semibold text-[18px] sm:text-3xl lg:text-4xl">
+            <p className=" font-SpaceGrotesk text-black font-semibold text-2xl sm:text-3xl lg:text-4xl">
               So, what is stopping you from
-              <br /> joining us?
+             joining us?
             </p>
             <p className="font-SpaceGrotesk text-medium text-[16px] lg:text-xl text-black2 ">
               Take a moment to reflect on what might be stopping you

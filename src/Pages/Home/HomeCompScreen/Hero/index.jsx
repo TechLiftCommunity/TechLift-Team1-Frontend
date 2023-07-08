@@ -6,11 +6,11 @@ import Button, {
 
 const Hero = () => {
   return (
-    <div className="grid lg:grid-cols-2 grid-cols-1 lg:max-h-screen space-y-8 lg:space-y-0 text-center lg:text-start  place-items-center bg-fcWhite px-6 sm:px-14 mt-32">
+    <div className="grid lg:grid-cols-2 grid-cols-1 lg:max-h-screen space-y-8 lg:space-y-0 text-center lg:text-start  place-items-center bg-fcWhite px-6 sm:px-14 mt-28  md:mt-32">
       <div className="space-y-6">
-        <p className=" font-SpaceGrotesk text-[24px] sm:text-[40px] lg:text-start text-center w-full  text-fcPrimary lg:xl:leading-[55px] font-extrabold lg:text-[47px]">
+        <p className=" font-SpaceGrotesk text-[24px] sm:text-[40px] lg:text-start text-center w-full   text-fcPrimary lg:xl:leading-[55px] font-extrabold lg:text-[47px]">
           Transform your knowledge
-          <br /> into practical experience.
+          <br /> into practical <experience styleName=""></experience>
         </p>
         <p className="font-SpaceGrotesk text-center   text-[16px] sm:text-[18px] lg:text-start lg:text-[19px] text-black2 ">
           At Tech Lift Community, we are passionate about nurturing and grooming

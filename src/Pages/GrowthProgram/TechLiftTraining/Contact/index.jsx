@@ -7,9 +7,9 @@ import TextArea from "../.../../../../../Components/widgets/textArea/TextArea";
 const Contact = () => {
   return (
     <div>
-      <div className="grid lg:grid-cols-2 grid-cols-1 lg:max-h-screen text-center lg:text-start gap-14 place-items-center px-6 md:px-10 lg:px-24 md:py-10">
+      <div className="grid lg:grid-cols-2 grid-cols-1 lg:max-h-screen text-center lg:text-start gap-14 place-items-center px-4 md:px-10 lg:px-24 md:py-10">
         <div className="space-y-4 ">
-          <p className=" font-SpaceGrotesk text-fcPrimary font-semibold  text-[18px] md:text-3xl lg:text-4xl">
+          <p className=" font-SpaceGrotesk text-fcPrimary font-semibold w-full text-2xl md:text-3xl lg:text-4xl">
             Want a recommendation from us for your next project?
           </p>
           <p className=" font-SpaceGrotesk  text-[18px] lg:text-[19px] text-[#404040] ">

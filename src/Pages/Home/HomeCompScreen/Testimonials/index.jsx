@@ -77,7 +77,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div className=" lg:hidden ">
+      <div className=" lg:hidden my-10 ">
         <TestimonialCarousel />
       </div>
     </div>

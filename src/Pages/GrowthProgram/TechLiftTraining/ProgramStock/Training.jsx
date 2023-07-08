@@ -11,7 +11,7 @@ const Training = () => {
         </div>
 
         <div className="space-y-4 ">
-          <p className=" font-SpaceGrotesk text-fcWhite font-semibold  text-[20px] md:text-3xl lg:text-4xl">
+          <p className=" font-SpaceGrotesk text-fcWhite font-semibold  text-2xl md:text-3xl lg:text-4xl">
           Techlift Trainings
           </p>
           <p className=" font-SpaceGrotesk  text-[18px] lg:text-[19px] text-fcWhite ">
