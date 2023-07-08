@@ -4,11 +4,11 @@ import trainingmage1 from "../../../../Components/Assets/img/trainingimage1.png"
 
 const TrainingHero = () => {
   return (
-    <div className="grid lg:grid-cols-2 grid-cols-1 lg:max-h-screen space-y-8 lg:space-y-0 text-center lg:text-start  place-items-center bg-fcWhite px-6 sm:px-14 mt-32">
+    <div className="grid lg:grid-cols-2 grid-cols-1 lg:max-h-screen space-y-8 lg:space-y-0 text-center lg:text-start  place-items-center bg-fcWhite px-2  sm:px-14 pt-32">
       <div className="space-y-6">
-        <p className=" font-SpaceGrotesk text-[24px] sm:text-[40px] lg:text-start text-center w-full  text-fcPrimary lg:xl:leading-[55px] font-extrabold lg:text-[47px]">
+        <p className=" font-SpaceGrotesk text-[28px] sm:text-[40px] lg:text-start text-center w-full  text-fcPrimary lg:xl:leading-[55px] px-1 font-extrabold lg:text-[47px]">
           Improve your skill with our
-          <br /> high-end Programs
+           high-end Programs
         </p>
         <p className="font-SpaceGrotesk text-center   text-[16px] sm:text-[18px] lg:text-start lg:text-[19px] text-black2 ">
           {" "}
