@@ -1,5 +1,6 @@
 import React from "react";
 import heroimage from "../../../../Components/Assets/Svg/heroimage.svg";
+import { Link } from "react-router-dom";
 import Button, {
   SecondaryButton,
 } from "../../../../Components/modules/button/Button";
@@ -21,9 +22,12 @@ const Hero = () => {
           Learn more
         </SecondaryButton>
         <div className="lg:hidden flex justify-center items-center gap-4 sm:gap-16">
+          <Link to= "/community">
           <SecondaryButton className="text-fcWhite rounded-lg   text-[14px] sm:text-base lg:text-xl px-4 py-2 font-SpaceGrotesk font-medium  border border-fcPrimary bg-fcPrimary">
             Join Community
           </SecondaryButton>
+          </Link>
+          
           <SecondaryButton className="text-fcPrimary rounded-lg  text-[14px] sm:text-base lg:text-xl text-base px-4 py-2 font-SpaceGrotesk font-medium  border border-fcPrimary bg-white">
             Learn more
           </SecondaryButton>

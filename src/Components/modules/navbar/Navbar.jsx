@@ -56,7 +56,7 @@ const Navbar = () => {
                 )}
               </span>
               <Dropdown
-                className="absolute top-16 bg-fcWhite"
+                className="absolute top-14 bg-fcWhite"
                 show={openProgram}
               >
                 <div className="grid justify-center items-center text-black2 my-2  w-full font-SpaceGrotesk">
@@ -96,7 +96,7 @@ const Navbar = () => {
                 )}
               </span>
               <Dropdown
-                className="absolute top-16 bg-fcWhite"
+                className="absolute top-14 bg-fcWhite"
                 show={openAboutUs}
               >
                 <div className="grid justify-center items-center text-black2 my-2  w-full font-SpaceGrotesk">
@@ -119,9 +119,10 @@ const Navbar = () => {
           {" "}
           <div
             className="hidden space-x-2 md:inline-block"
-            onClick={() => setSwitchNavbar(!switchNavbar)}
+            // onClick={() => setSwitchNavbar(!switchNavbar)}
           >
-            {switchNavbar ? (
+            
+            {pathname=== "/community" || pathname=== "/growthprogram"?  (
               <div className="hidden space-x-5 md:flex items-center">
                 <SecondaryButton className="px-[40px] h-14  font-SpaceGrotesk font-[500] text-[18px] text-fcPrimary  border border-[#3E5693] bg-transparent rounded-md shadow hover:bg-gray-800">
                   Login
@@ -134,11 +135,11 @@ const Navbar = () => {
                 </Button>
               </div>
             ) : (
-              <div className={` ${pathname === "/community" && "pt-0"} pt-0 `}>
+              <Link to="/community" >
                 <Button className="  font-SpaceGrotesk text-[18px] font-medium text-white bg-fcPrimary rounded-md shadow ">
                   Join Community
                 </Button>
-              </div>
+              </Link>
             )}
           </div>
         </div>
