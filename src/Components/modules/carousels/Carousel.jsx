@@ -21,7 +21,7 @@ export const Carousel = () => {
     {
       title: "Esther Funmi",
       description:
-        " Since joining this community, I have had the chance of working on amazing projects with brilliant minds. This has afforded me the opportunity to learn the importance of working with a team",
+        " Since joining this community, I have had the chance of working on projects with brilliant minds. This has afforded me the opportunity to learn the importance of working with a team",
       icon: require("./Media/quote.svg"),
       image: require("./Media/Ellipse.png"),
     },
@@ -56,7 +56,7 @@ export const Carousel = () => {
           <span class="material-symbols-outlined">
             <HiChevronLeft
               size={30}
-              className="text-fcPrimary border rounded-full h-12 w-12 bg-fcWhite"
+              className="text-fcPrimary border rounded-full h-10 w-10 md:h-12 md:w-12 bg-fcWhite"
             />
           </span>{" "}
         </button>
@@ -91,7 +91,7 @@ export const Carousel = () => {
           <span class="material-symbols-outlined">
             <HiChevronRight
               size={30}
-              className="text-fcPrimary border rounded-full h-12 w-12 bg-fcWhite"
+              className="text-fcPrimary border rounded-full h-10 w-10 md:h-12 md:w-12 bg-fcWhite"
             />
           </span>
         </button>
