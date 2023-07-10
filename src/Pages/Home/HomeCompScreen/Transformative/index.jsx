@@ -19,7 +19,7 @@ const Transformative = () => {
   ];
 
   return (
-    <div className="grid lg:grid-cols-2 grid-cols-1 lg:max-h-screen gap-10 place-items-center bg-fcWhite px-5 sm:px-10  sm:mt-16 ">
+    <div className="grid lg:grid-cols-2 grid-cols-1 lg:max-h-screen gap-10 place-items-center bg-fcWhite px-5 sm:px-10  sm:mt-16 pt-12 lg:pt-16  ">
       <div className="w-full space-y-8">
         <div className="font-SpaceGrotesk bg-fcPrimary flex justify-center  rounded-2xl ">
           {data1.map((item, index) => {

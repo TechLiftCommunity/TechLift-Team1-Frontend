@@ -3,15 +3,17 @@ import QouteIcon from "../../../../Components/Icons/QouteIcon";
 import ReviewIcon from "../../../../Components/Icons/ReviewIcon";
 import EclipseImg from "../../../../Components/Assets/img/Ellipse.png";
 import { TestimonialCarousel } from "../../../../Components/modules/Carousel";
+import { Carousel } from "../../../../Components/modules/carousels/Carousel";
+import  "../../../../Components/modules/carousels/Carousel.css"
 
 const Testimonials = () => {
   return (
-    <div className="bg-fcPrimary6 md:max-h-screen mt-20  py-10">
+    <div className="bg-fcPrimary6 md:max-h-screen mt-20  py-10 lg:py-20">
       <p className="md:block hidden lg:text-4xl text-3xl text-fcBlack xl:leading-[45px] text-center font-SpaceGrotesk  font-semibold ">
         See how we have impacted the life
         <br /> of our members
       </p>
-      <p className="md:hidden text-[20px] text-fcBlack  text-center font-SpaceGrotesk font-semibold ">
+      <p className="md:hidden text-2xl text-fcBlack  text-center font-SpaceGrotesk font-semibold ">
         See how we have impacted the life of our members
       </p>
       <div className="hidden lg:grid  w-full lg:grid-cols-3  md:grid-cols-1 mt-10 place-items-center">
@@ -77,8 +79,8 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div className=" lg:hidden my-10 ">
-        <TestimonialCarousel />
+      <div className=" lg:hidden my-8 flex overflow-hidden justify-center flex-col">
+        <Carousel />
       </div>
     </div>
   );

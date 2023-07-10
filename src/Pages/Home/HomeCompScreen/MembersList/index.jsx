@@ -2,7 +2,7 @@ import React from "react";
 
 const MemberList = () => {
   return (
-    <div className="w-full flex justify-between px-5 bg-fcPrimary  py-5 lg:py-10">
+    <div className="w-full flex justify-evenly  lg:px-10 bg-fcPrimary  py-5 lg:py-10">
       <div>
         <div className=" place-items-center grid">
           <p className="text-fcWhite font-SpaceGrotesk md:text-2xl lg:text-3xl text-[18px] sm:text-[18px] font-semibold">
