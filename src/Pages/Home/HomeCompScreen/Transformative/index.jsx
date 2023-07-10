@@ -19,7 +19,7 @@ const Transformative = () => {
   ];
 
   return (
-    <div className="grid lg:grid-cols-2 grid-cols-1 lg:max-h-screen gap-10 place-items-center bg-fcWhite px-5 sm:px-10  sm:mt-16 ">
+    <div className="grid lg:grid-cols-2 grid-cols-1 lg:max-h-screen gap-10 place-items-center bg-fcWhite px-5 sm:px-10  sm:mt-16 pt-12 lg:pt-16  ">
       <div className="w-full space-y-8">
         <div className="font-SpaceGrotesk bg-fcPrimary flex justify-center  rounded-2xl ">
           {data1.map((item, index) => {
@@ -28,7 +28,7 @@ const Transformative = () => {
                 <div>
                   <img src={Dot3} alt="dot" className="absolute  sm-w-full w-[10px] left-14" />
                 </div>
-                <div className="text-2xl sm:text-3xl lg:text-[40px] font-SpaceGrotesk text-fcWhite  xl:leading-[40px] font-bold">
+                <div className="text-2xl sm:text-3xl lg:text-[40px] font-SpaceGrotesk text-fcWhite  xl:leading-[50px] font-bold">
                   Start your transformative
                   <br /> journey now!
                 </div>
@@ -68,7 +68,7 @@ const Transformative = () => {
             return (
               <div key={index} className="">
                 <div>
-                  <p className="text-fcBlack text-2xl sm:text-3xl lg:text-[40px] xl:leading-[45px]  font-semibold">
+                  <p className="text-fcBlack text-2xl sm:text-3xl lg:text-[40px] xl:leading-[55px]  font-semibold">
                     Elevate your tech skills now!
                     <br /> Join our community today!
                   </p>

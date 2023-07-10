@@ -7,14 +7,14 @@ import Button, { SecondaryButton } from "../button/Button";
 import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
   const { pathname } = useLocation();
+
+  const [nav, setNav] = useState(false);
   const [openProgram, setOpenProgram] = useState(false);
   const [openAboutUs, setOpenAboutUs] = useState(false);
   const [switchNavbar, setSwitchNavbar] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const [showPartnerDropdown, setShowPartnerDropdown] = useState(false);
-
   const handleClick = () => setNav(!nav);
   const handleClose = () => setNav(!nav);
 
@@ -121,8 +121,7 @@ const Navbar = () => {
             className="hidden space-x-2 md:inline-block"
             // onClick={() => setSwitchNavbar(!switchNavbar)}
           >
-            
-            {pathname=== "/community" || pathname=== "/growthprogram"?  (
+            {pathname === "/community" || pathname === "/growthprogram" ? (
               <div className="hidden space-x-5 md:flex items-center">
                 <SecondaryButton className="px-[40px] h-14  font-SpaceGrotesk font-[500] text-[18px] text-fcPrimary  border border-[#3E5693] bg-transparent rounded-md shadow hover:bg-gray-800">
                   Login
@@ -135,7 +134,7 @@ const Navbar = () => {
                 </Button>
               </div>
             ) : (
-              <Link to="/community" >
+              <Link to="/community">
                 <Button className="  font-SpaceGrotesk text-[18px] font-medium text-white bg-fcPrimary rounded-md shadow ">
                   Join Community
                 </Button>

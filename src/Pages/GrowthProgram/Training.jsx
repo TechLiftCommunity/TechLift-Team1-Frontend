@@ -5,6 +5,7 @@ import ProgramStock from "./TechLiftTraining/ProgramStock";
 import { OurMission } from "../Home/HomeCompScreen";
 import Testimonials from "./TechLiftTraining/Testimonials";
 import Contact from "./TechLiftTraining/Contact";
+import { Carousel } from "../../Components/modules/carousels/Carousel";
 
 const Training = () => {
   return (
@@ -12,7 +13,7 @@ const Training = () => {
       <LandingPage>
         <TrainingHero />
         <ProgramStock />
-        <Testimonials />
+        <Carousel />
         <Contact />
       </LandingPage>
     </div>

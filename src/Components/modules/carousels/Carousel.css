@@ -1,0 +1,90 @@
+.carousel {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+/* .App {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #85a8c5;
+
+  } */
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); */
+}
+
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+  height: 50vh;
+  /* margin-left: 2%;
+  margin-right: 2%; */
+  border-radius: 10px;
+ 
+}
+
+.carousel-item-text {
+  font-size: 1.15rem;
+  margin: 30px 0 40px 0;
+  
+  white-space: normal;
+}
+.carousel-img {
+  width: 50px;
+ 
+}
+.carousel-image {
+    width: 80px;
+}
+
+/* final stage */
+
+.carousel-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.button-arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.indicators {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.indicator-buttons {
+  border: none;
+  cursor: pointer;
+}
+
+.indicators > button {
+  margin: 5px;
+  background: none;
+}
+
+.indicator-symbol {
+  color: #26343f;
+}
+
+.indicator-symbol-active {
+  color: #ffffff;
+}

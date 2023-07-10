@@ -28,7 +28,7 @@ const Footer = () => {
                 <LinkdinIcon size={40} />
               </div>
             </div>
-            <div className="w-full lg:w-6/12 ">
+            <div className="w-full lg:w-6/12">
               <div className="flex lg:flex-wrap items-top mb-6">
                 <div className="w-full lg:w-4/12  md:ml-auto">
                   <span className="block  text-fcWhite text-[13px] sm:text-[14px]  md:text-[18px] font-semibold  mb-2">
