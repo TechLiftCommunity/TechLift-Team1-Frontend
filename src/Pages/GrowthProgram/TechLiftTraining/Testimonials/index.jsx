@@ -3,6 +3,7 @@ import QouteIcon from "../../../../Components/Icons/QouteIcon";
 import ReviewIcon from "../../../../Components/Icons/ReviewIcon";
 import EclipseImg from "../../../../Components/Assets/img/Ellipse.png";
 import { TestimonialCarousel } from "../../../../Components/modules/Carousel";
+import { Carousel } from "../../../../Components/modules/carousels/Carousel";
 
 const Testimonials = () => {
   return (
@@ -75,7 +76,7 @@ const Testimonials = () => {
         </div>
       </div>
       <div className=" lg:hidden ">
-        <TestimonialCarousel />
+        <Carousel />
       </div>
     </div>
   );

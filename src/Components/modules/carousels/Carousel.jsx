@@ -46,7 +46,7 @@ export const Carousel = () => {
         })}
       </div>
 
-      <div className="carousel-buttons">
+      <div className="carousel-buttons ">
         <button
           className="button-arrow"
           onClick={() => {

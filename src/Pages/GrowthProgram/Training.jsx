@@ -13,7 +13,10 @@ const Training = () => {
       <LandingPage>
         <TrainingHero />
         <ProgramStock />
-        <Carousel />
+        
+      <Testimonials />
+        
+       
         <Contact />
       </LandingPage>
     </div>

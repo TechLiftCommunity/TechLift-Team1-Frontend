@@ -79,7 +79,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div className=" lg:hidden my-8 flex overflow-hidden justify-center flex-col">
+      <div className=" lg:hidden my-8 flex overflow-hidden justify-center  flex-col">
         <Carousel />
       </div>
     </div>

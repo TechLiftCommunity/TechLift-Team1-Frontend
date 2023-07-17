@@ -25,14 +25,6 @@ const TextArea = ({
 
   return (
     <div className="relative">
-      {/* <img
-        className={`${
-          size === "sm" && "max-w-[3px] top-[8px] left-[15px]"
-        } object-contain absolute top-3 left-6`}
-        src={VMSimages.input_bar}
-        alt=""
-      /> */}
-
       <textarea
         {...props}
         className={`${getSize(size)} ${className} ${
@@ -44,3 +36,46 @@ const TextArea = ({
 };
 
 export default TextArea;
+
+// import { useState } from "react";
+// const [formValue, setFormValue] = useState([
+//   {
+//     Name: "",
+//     Email: ""
+//   }
+// ]);
+// const inputsProperty = [
+//   {
+//     id: 1,
+//     type: "text",
+//     name: "Name",
+//     placeHolder: "FirstName"
+//   },
+//   {
+//     id: 2,
+//     type: "email",
+//     password: "oluwaseyi",
+//     location: "Nigeria"
+//   }
+// ];
+// const handleOnchange = (e) => {
+//   setFormValue({ ...formValue, [e.target.name]: [e.target.value] });
+// };
+// export const signUp = () => {
+//   return (
+//     <div>
+//       {inputsProperty.map((items) => {
+//         return (
+//           <input
+//             key={items.id}
+//             type={items.type}
+//             name={items.name}
+//             value={items.value}
+//             placeholder={items.placeHolder}
+//             onChange={handleOnchange}
+//           />
+//         );
+//       })}
+//     </div>
+//   );
+// };
