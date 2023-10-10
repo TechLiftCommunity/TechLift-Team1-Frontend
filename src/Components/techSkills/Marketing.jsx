@@ -13,8 +13,11 @@ const Marketing = () => {
         <div className="app__marketing-right-text">
           <h1>Marketing Community</h1>
           <p className="mark-p">
-            Lorem ipsum dolor sit amet consectetur. Sollicitudin sem enim arcu
-            urna ac. Neque mauris odio lacus egestas turpis.
+            Marketing would always be in trend regardless of the industry, and
+            with our dynamic marketing track you can learn how marketing works
+            in the tech space. Acquire knowledge on digital marketing skills,
+            have access to mentors, network with other marketers, and build a
+            great portfolio from here.
           </p>
 
           <button type="submit" className="mark-btn">

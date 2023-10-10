@@ -72,10 +72,9 @@
   }
 
   .dev-p {
-    width: 760px;
-    height: 105px;
+    width: 860px;
+    height: 150px;
     line-height: 156.52%;
-    text-align: center;
   }
 
   .app__developer-left img {
@@ -130,8 +129,9 @@
 
   .dev-p {
     width: 480px;
-    font-size: 20px;
-    line-height: 31px;
+    font-size: 19px;
+    line-height: 28px;
+    margin-bottom: 1rem;
   }
 }
 
@@ -148,8 +148,9 @@
 
   .dev-p {
     width: 400px;
-    font-size: 18px;
-    line-height: 31px;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 1rem;
   }
 }
 
@@ -165,8 +166,9 @@
   }
 
   .dev-p {
-    width: 370px;
-    font-size: 17px;
-    line-height: 31px;
+    width: 340px;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 0.5rem;
   }
 }

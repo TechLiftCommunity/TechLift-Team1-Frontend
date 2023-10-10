@@ -62,8 +62,8 @@
   }
 
   .mark-p {
-    width: 760px;
-    height: 105px;
+    width: 860px;
+    height: 180px;
     line-height: 156.52%;
   }
 
@@ -81,7 +81,7 @@
 
   .mark-p {
     width: 680px;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 31px;
   }
 }
@@ -100,9 +100,10 @@
   }
 
   .mark-p {
-    width: 600px;
-    font-size: 22px;
+    width: 580px;
+    font-size: 21px;
     line-height: 31px;
+    margin-bottom: 1rem;
   }
 }
 
@@ -120,7 +121,8 @@
   .mark-p {
     width: 450px;
     font-size: 20px;
-    line-height: 31px;
+    line-height: 27px;
+    margin-bottom: 1rem;
   }
 }
 
@@ -136,9 +138,10 @@
   }
 
   .mark-p {
-    width: 450px;
-    font-size: 20px;
-    line-height: 31px;
+    width: 400px;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -154,8 +157,9 @@
   }
 
   .mark-p {
-    width: 350px;
+    width: 330px;
     font-size: 17px;
-    line-height: 28px;
+    line-height: 26px;
+    margin-bottom: 1rem;
   }
 }

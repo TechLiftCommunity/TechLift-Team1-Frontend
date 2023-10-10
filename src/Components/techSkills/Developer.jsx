@@ -13,8 +13,11 @@ const Developer = () => {
         <div className="app__developer-right-text">
           <h1>Developers Community</h1>
           <p className="dev-p">
-            Lorem ipsum dolor sit amet consectetur. Sollicitudin sem enim arcu
-            urna ac. Neque mauris odio lacus egestas turpis.
+            Improve your coding portfolio by getting hands-on experience,
+            learning from industry professionals, and building real-world
+            projects. Don't pass up this opportunity to broaden your knowledge
+            and advance your profession. Join now and realize your full
+            developer’s potential.
           </p>
 
           <button type="submit" className="dev-btn">
